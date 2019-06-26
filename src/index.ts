@@ -2,8 +2,8 @@ import * as PIXI from 'pixi.js';
 
 window.addEventListener('DOMContentLoaded', () => {
   const app = new PIXI.Application({
-    width: 500,
-    height: 500,
+    width: 400,
+    height: 400,
     backgroundColor: 0x2c3e50
   });
   document.body.appendChild(app.view);
@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   function startup() {
     const bunny = new PIXI.Sprite(app.loader.resources.bunny.texture);
-    bunny.anchor.set(0.5);
+    bunny.anchor.set(1);
     app.stage.addChild(bunny);
 
     app.ticker.add(delta => {
