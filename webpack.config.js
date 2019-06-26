@@ -13,15 +13,6 @@ module.exports = {
         exclude: /node_modules/,
         test: /\.ts$/,
         use: 'ts-loader'
-      },
-      {
-        test: /\.(frag|vert|glsl)$/,
-        use: [
-          {
-            loader: 'webpack-glsl-loader',
-            options: {}
-          }
-        ]
       }
     ]
   },

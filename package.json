@@ -1,7 +1,7 @@
 {
   "name": "pixi-ts-practice",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pixi.js x TypeScript",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
@@ -10,7 +10,7 @@
     "lint": "eslint --fix --ext .js,.ts --ignore-path .gitignore ."
   },
   "keywords": [],
-  "author": "",
+  "author": "naotaro0123",
   "license": "ISC",
   "devDependencies": {
     "@types/pixi.js": "^4.8.8",
@@ -25,8 +25,7 @@
     "typescript": "^3.5.2",
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2",
-    "webpack-glsl-loader": "^1.0.1"
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
     "pixi.js": "^5.0.4"
